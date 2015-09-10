@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>Formulierpagina</title>
+</head>
+<body>
+<h1>Aanmelden</h1>
+
+   <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan! Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+
+   <p><em>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</em></p>
+
+   <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+   Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+   Voor vragen of opmerkingen kunt u contact <a href="https://www.google.nl"> contact</a> met ons op.</p>
+
+<form>
+<fieldset>
+   <h2>Contactgegevens:</h2>
+   <label>Naam<br />
+      <input type="text" name="contactgegevens" /></label><br />
+   <label>Bedrijf<br />
+      <input type="text" name="contactgegevens" /></label><br />
+   <label>Adres<br />
+      <input type="text" name="contactgegevens" /></label><br />
+   <label>Postcode<br />
+      <input type="text" name="contactgegevens" /></label><br />
+   <label>Plaats<br />
+      <input type="text" name="contactgegevens" /></label><br />
+   <label>Telefoon<br />
+      <input type="text" name="contactgegevens" /></label><br />
+   <label>Email<br />
+      <input type="text" name="contactgegevens" /></label><br />
+</fieldset>
+
+   <p>Ik wil mij aanmelden:</p>
+
+<fieldset>
+   <p><input type="radio" name="rating" value= "Voor een project"> Voor een project</p>
+   <p><input type="radio" name="rating" value= "Als stagebedrijf"> Als stagebedrijf</p>
+</fieldset>
+
+<fieldset>
+   <h2>Project:</h2>
+   <label>Titel<br />
+      <input type="text" name="contactgegevens" /></label><br />
+   <label>Opdrachtomschrijving<br />
+      <input type="text" name="contactgegevens" /></label><br />
+   <label>Doelgroepomschrijving<br />
+      <input type="text" name="contactgegevens" /></label><br />
+   <label>Doelstelling<br />
+      <input type="text" name="contactgegevens" /></label><br />
+   <label>Looptijd<br />
+      <input type="text" name="contactgegevens" /></label><br />
+   <label>Deadline<br />
+      <input type="text" name="contactgegevens" /></label><br />
+
+
+   <p>Geschikt voor:</p>
+      <p><input type="checkbox" name="rating" value= "Voor een project"> Eerstejaars studenten</p>
+      <p><input type="checkbox" name="rating" value= "Voor een project"> Tweedejaars studenten</p>
+      <p><input type="checkbox" name="rating" value= "Voor een project"> Derdejaars stuenten</p>
+      <p><input type="checkbox" name="rating" value= "Voor een project"> Afstudeer studenten</p>
+      <p><input type="checkbox" name="rating" value= "Voor een project"> Onbekend</p>
+
+<p>Opmerkingen</p>
+<textarea rows="4" cols="40" id="comments"></textarea>
+<br />
+<input type="submit" value="Versturen" />
+</fieldset>
+
+
+<fieldset>
+
+<h2>Stage</h2>
+   <p>Geschikt voor:</p>
+      <p><input type="radio" name="rating" value= "Tweedejaars studenten"> Tweedejaars studenten</p>
+      <p><input type="radio" name="rating" value= "Afstudeer studenten"> Afstudeer studenten</p>
+      <p><input type="radio" name="rating" value= "Onbekend"> Onbekend</p>
+
+<p>Hoelang is de stage:</p>
+   <p><input type="radio" name="rating" value= "10 weken"> 10 weken</p>
+   <p><input type="radio" name="rating" value= "10 weken"> 20 weken</p>
+ <label>Begin datum: <br />
+   <input type="date" name="begin datum" /></label><br />
+
+<p>Beschrijving werkzaamheden:</p>
+<textarea rows="4" cols="40" name="opmerkingen"></textarea>
+<br />
+
+<p>Beschrijving stagebedrijf</p>
+   <label>Bedrijfsnaam<br />
+      <input type="text" name="contactgegevens" /></label><br />
+   <label>Adres<br />
+      <input type="text" name="contactgegevens" /></label><br />
+   <label>Postcode<br />
+      <input type="text" name="contactgegevens" /></label><br />
+   <label>Plaats<br />
+      <input type="text" name="contactgegevens" /></label><br />
+   <label>Sector<br />
+      <input type="text" name="contactgegevens" /></label><br />
+   <label>Core Business<br /></label>
+
+<p>Opmerkingen</p>
+<textarea rows="4" cols="40" name="opmerkingen"></textarea>
+<br />
+<input type="submit" value="Versturen" />
+
+</fieldset>
+</form>
+</body>
+</html>
